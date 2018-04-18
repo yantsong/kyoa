@@ -1,0 +1,30 @@
+{
+    "name": "kyoa",
+    "version": "1.0.0",
+    "description": "koa",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node app.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/yantsong/kyoa.git"
+    },
+    "keywords": [
+        "koa"
+    ],
+    "author": "song",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/yantsong/kyoa/issues"
+    },
+    "homepage": "https://github.com/yantsong/kyoa#readme",
+    "dependencies": {
+        "cheerio": "^1.0.0-rc.2",
+        "koa-bodyparser": "^4.2.0",
+        "koa-router": "^7.4.0",
+        "koa2": "^2.0.0-alpha.7",
+        "request": "^2.85.0"
+    }
+}
