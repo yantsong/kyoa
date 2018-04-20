@@ -3,7 +3,7 @@ const Koa = require('koa2')
 const bodyParser = require('koa-bodyparser')
 const app = new Koa();
 
-test('knowyouself')
+// test('knowyouself')
 app.use(bodyParser)
 app.use(async(ctx, next) => {
     // await next();
